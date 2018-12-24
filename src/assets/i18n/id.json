@@ -73,6 +73,10 @@
       "list": {
         "title": "Kategori perangkat",
         "searchLable": "Deskripsi"
+      },
+      "new": {
+        "name": "Nama",
+        "description": "Deskripsi"
       }
     }
   }

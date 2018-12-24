@@ -88,6 +88,10 @@
       "list": {
         "title": "Category of device",
         "searchLable": "Description"
+      },
+      "new": {
+        "name": "Name",
+        "description": "Description"
       }
     }
   }
