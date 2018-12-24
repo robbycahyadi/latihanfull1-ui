@@ -29,6 +29,11 @@ export class CategoryDeviceService {
     return this._http.post(`${environment.supportDeviceApi}/master/category-device/`, value);
   }
 
+  public update(value: CategoryDevice) {
+    return this._http.put(`${environment.supportDeviceApi}/master/category-device/`, value);
+  }
+
+
   public getChangeTypes(id: number) {
     return this._http.get(`${environment.supportDeviceApi}/master/category-device/${id}`, {observe: 'response'});
   }

@@ -29,7 +29,7 @@ const routes: Routes = [
         path: 'category-device/:id',
         component: UpdateCategoryDeviceComponent,
         data: {
-          title: 'New category of device'
+          title: 'Update a category of device'
         }
       }
     ]

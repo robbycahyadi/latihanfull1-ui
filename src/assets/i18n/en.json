@@ -90,6 +90,13 @@
         "searchLable": "Description"
       },
       "new": {
+        "title": "a Category of Device",
+        "name": "Name",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "a Category of Device",
+        "id": "ID",
         "name": "Name",
         "description": "Description"
       }

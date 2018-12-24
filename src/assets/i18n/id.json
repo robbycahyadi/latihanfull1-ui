@@ -71,12 +71,19 @@
   "master": {
     "categoryDevice": {
       "list": {
-        "title": "Kategori perangkat",
+        "title": "Kategori Perangkat",
         "searchLable": "Deskripsi"
       },
       "new": {
+        "title": "Kategory Perangkat",
         "name": "Nama",
-        "description": "Deskripsi"
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Kategory Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "description": "Keterangan"
       }
     }
   }
