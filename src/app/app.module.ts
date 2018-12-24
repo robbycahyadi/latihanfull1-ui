@@ -1,11 +1,3 @@
-// Import containers
-// Import routing module
-// Import 3rd party components
-// NG4 Loading Spinner
-// FOR Translate
-// Datetime Range Picker
-// import {OwlDateTimeModule, OwlNativeDateTimeModule} from 'ng-pick-datetime';
-
 import {PerfectScrollbarConfigInterface, PerfectScrollbarModule} from 'ngx-perfect-scrollbar';
 import {environment} from '../environments/environment';
 import {DefaultLayoutComponent} from './containers/default-layout';
@@ -39,7 +31,7 @@ import {AuthenticationService} from './_services/authentication.service';
 import {RoutingStateService} from './_services/routing-state.service';
 import {CookieService} from 'ngx-cookie-service';
 import {DashboardModule} from './views/dashboard/dashboard.module';
-import {WelcomeModule} from './views/welcome/welcome.module';
+import {MasterModule} from './views/master/master.module';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -111,7 +103,8 @@ export function tokenGetter() {
         blacklistedRoutes: ['localhost:3001/auth/']
       }
     }),
-    DashboardModule
+    DashboardModule,
+    MasterModule
   ],
   declarations: [AppComponent, ...APP_CONTAINERS],
   providers: [

@@ -12,6 +12,7 @@ export const environment = {
   securityUri: '/security-management/api',
   securityMenu: '/security-management/menu',
   authLogout: '/security-management/security',
+  supportDeviceApi: '/supporting-device/api',
   remysUri: '/web-application-face/service',
   alfrescoUri: '/alfresco',
   basePath: '/',
