@@ -1,0 +1,789 @@
+{
+  "TESTING": {
+    "Title": "Translation example",
+    "Intro": "Hello I am {{name}}, I am {{age}} years old."
+  },
+  "FORM1": {
+    "Form": "Form",
+    "Title": "Credit Card",
+    "Name": "Name",
+    "CCN": "Credit Card Number",
+    "Month": "Month",
+    "Year": "Year",
+    "CVV": "CVV/CVC",
+    "Table": "Data Table Example"
+  },
+  "HEADER": {
+    "Name": "Integrated Testing Management"
+  },
+  "header": {
+    "name": "Integrated Testing Management"
+  },
+  "SIDEBAR": {
+    "Dashboard": "Dashboard",
+    "Title-Registration": "REGISTRATION",
+    "Registration": "Registration",
+    "Example": "Example"
+  },
+  "BUTTON": {
+    "Modal": "Modal Example",
+    "Alert": "Alert Example"
+  },
+  "modal": {
+    "deleteWarningModal":"Peringatan",
+    "deleteWarningModalDescription": "Apakah anda yakin untuk menghapus data ini?",
+    "titleLogout": "Keluar",
+    "bodyLogout": "Anda yakin ingin keluar?",
+    "titleSessionExpired": "Your session has expired",
+    "bodySessionExpired": "Please login again"
+  },
+  "button": {
+    "buttonSave": "Simpan",
+    "buttonUpdate": "Sunting",
+    "buttonEdit": "Edit",
+    "buttonReset": "Ulang",
+    "buttonDelete": "Hapus",
+    "buttonSearch": "Cari",
+    "buttonDetail": "Detail",
+    "buttonApprove": "Setujui",
+    "buttonReject": "Tolak",
+    "buttonCancel": "Batal",
+    "buttonNext": "Lanjut",
+    "buttonLoad": "Load",
+    "buttonAdd": "Tambah",
+    "buttonRemove": "Hapus",
+    "buttonBrowse": "Telusuri",
+    "buttonZoomIn": "Perbesar",
+    "buttonZoomOut": "Perkecil",
+    "buttonChooseFile": "Pilih Berkas",
+    "buttonAddWorkExperience": "Tambah Pengalaman Kerja",
+    "buttonAddEducations": "Tambah Pendidikan",
+    "buttonAddSkill": "Tambah Kemampuan",
+    "buttonAddLanguage": "Tambah Bahasa",
+    "buttonAddDependent": "Tambah Dependent",
+    "buttonAddEmergencyContact": "Tambah Kontak Darurat",
+    "buttonAddCertification": "Tambah Sertifikasi",
+    "buttonAddNewTraining": "Tambah Pelatihan Baru",
+    "buttonAddNewCertification": "Tambah Sertifikasi Baru",
+    "buttonOptions": "Pilihan",
+    "buttonNew": "Baru"
+  },
+  "master": {
+    "attendanceTypes": {
+      "list": {
+        "title": "Jenis Kehadiran",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Jenis Kehadiran Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Jenis Kehadiran"
+      }
+    },
+    "competencies": {
+      "list": {
+        "title": "Kompetensi",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Kompetensi Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Kompetensi"
+      }
+    },
+    "currencies": {
+      "list": {
+        "title": "Mata Uang",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Mata Uang Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Mata Uang"
+      }
+    },
+    "resourceEmployeeLeave": {
+      "list": {
+        "title": "Annual Leave",
+        "searchLable": "Name"
+      },
+      "new": {
+        "title": "New Annual Leave",
+        "resourceEmployee": "Id Resource Employee",
+        "year": "Year",
+        "quotaLeft": "Leave Quota",
+        "yearRequired": "Year is required.",
+        "quotaLeftRequired": "Leave quota is required."
+      },
+      "update": {
+        "title": "Update Annual Leave"
+      }
+    },
+    "department": {
+      "list": {
+        "title": "Departemen",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Departemen Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Departemen"
+      }
+    },
+    "levelTester": {
+      "list": {
+        "title": "Level",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Level",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Level"
+      }
+    },
+    "bookstatus": {
+      "new": {
+        "bookstatusRequired": "Deksripsi wajib diisi",
+        "bookstatuseBlank": "Deksripsi tidak boleh kosong"
+      }
+    },
+    "employmentStatus": {
+      "list": {
+        "title": "Status Kepegawaian",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Status Kepegawaian Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Status Kepegawaian"
+      }
+    },
+    "fluencies": {
+      "list": {
+        "title": "Kefasihan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Kefasihan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi.",
+        "descriptionMinlength": "Minimum 2 karakter."
+      },
+      "update": {
+        "title": "Sunting Kefasihan"
+      }
+    },
+    "gender": {
+      "list": {
+        "title": "Gender",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Gender Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Gender"
+      }
+    },
+    "Golongan": {
+      "list": {
+        "title": "Golongan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Golongan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Golongan"
+      }
+    },
+    "institutes": {
+      "list": {
+        "title": "Institusi",
+        "searchLable": "Nama Institusi"
+      },
+      "new": {
+        "title": "Institusi Baru",
+        "instituteName": "Nama Institusi",
+        "instituteNameRequired": "Nama Institusi wajib diisi.",
+        "instituteNameBlank": "Nama Institusi tidak boleh kosong."
+      },
+      "update": {
+        "title": "Sunting Institusi"
+      }
+    },
+    "interviewer": {
+      "list": {
+        "title": "Pewawancara",
+        "searchLable": "Nama"
+      },
+      "new": {
+        "title": "Pewawancara Baru",
+        "name": "Nama",
+        "position": "Posisi",
+        "workUnit": "Unit Kerja"
+      },
+      "update": {
+        "title": "Sunting Pewawancara"
+      }
+    },
+    "jobCategory": {
+      "list": {
+        "title": "Kategori Pekerjaan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Kategori Pekerjaan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Kategori Pekerjaan"
+      }
+    },
+    "jobTitle": {
+      "list": {
+        "title": "Nama Pekerjaan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Nama Pekerjaan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Nama Pekerjaan"
+      }
+    },
+    "kecamatan": {
+      "list": {
+        "title": "Kecamatan",
+        "searchLable": "Kecamatan"
+      }
+    },
+    "kelurahan": {
+      "list": {
+        "title": "Kelurahan",
+        "searchLable": "Kelurahan"
+      }
+    },
+    "postalCode": {
+      "list": {
+        "title": "Kode Pos",
+        "searchLable": "Kode Pos"
+      }
+    },
+    "city": {
+      "list": {
+        "title": "Kota/Kabupaten",
+        "searchLable": "Kota/Kabupaten"
+      }
+    },
+    "languages": {
+      "list": {
+        "title": "Bahasa",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title" : "Bahasa Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Bahasa"
+      }
+    },
+    "level": {
+      "list": {
+        "title": "Tingkatan",
+        "searchLable": "Nama Tingkatan"
+      },
+      "new": {
+        "title": "Tingkatan Baru",
+        "levelName": "Nama Tingkatan",
+        "levelNameRequired": "Nama Tingkatan wajib diisi",
+        "levelNameBlank": "Nama Tingkatan tidak boleh kosong"
+      },
+      "update": {
+        "title": "Sunting Tingkatan"
+      }
+    },
+    "levelEducations": {
+      "list": {
+        "title": "Tingkat Pendidikan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Tingkat Pendidikan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi.",
+        "descriptionBlank": "Deskripsi tidak boleh kosong."
+      },
+      "update": {
+        "title": "Sunting Tingkat Pendidikan"
+      }
+    },
+    "majors": {
+      "list": {
+        "title": "Jurusan/Program Studi",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Jurusan/Program Studi Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi.",
+        "descriptionMinlength": "Minimum 2 karakter."
+      },
+      "update": {
+        "title": "Sunting Jurusan/Program Studi"
+      }
+    },
+    "maritalStatus": {
+      "list": {
+        "title": "Status Pernikahan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Status Pernikahan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Status Pernikahan"
+      }
+    },
+    "monitionLevel": {
+      "list": {
+        "title": "Tingkat Teguran",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Tingkat Teguran Baru",
+        "description": "Deskripsi",
+        "searchLableRequired": "Deksripsi wajib di isi ",
+        "searchLableBlank": "Deksripsi tidak boleh kosong "
+      },
+      "update": {
+        "title": "Sunting Tingkat Teguran"
+      }
+    },
+    "country": {
+      "list": {
+        "title": "Negara",
+        "searchLable": "Deskripsi"
+      }
+    },
+    "payFrequencies": {
+      "list": {
+        "title": "Frekuensi Gaji",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Frekuensi Gaji Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      }
+    },
+    "payGrades": {
+      "list": {
+        "title": "Peringkat Gaji",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Peringkat Gaji Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Peringkat Gaji"
+      }
+    },
+    "program": {
+      "list": {
+        "title": "Program",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Program Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Program"
+      }
+    },
+    "provinsi": {
+      "list": {
+        "title": "Provinsi",
+        "searchLable": "Deskripsi"
+      }
+    },
+    "relationship": {
+      "list": {
+        "title": "Hubungan",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Hubungan Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Hubungan"
+      }
+    },
+    "relationshipFamily": {
+      "list": {
+        "title": "Hubungan Keluarga",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Hubungan Keluarga Baru",
+        "description": "Deskripsi"
+      },
+      "update": {
+        "title": "Sunting Hubungan Keluarga"
+      }
+    },
+    "religion": {
+      "list": {
+        "title": "Agama",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Agama Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Agama"
+      }
+    },
+    "score": {
+      "list": {
+        "title": "Skor",
+        "searchLable": "Skor"
+      },
+      "new": {
+        "title": "Skor Baru",
+        "score": "Skor",
+        "scoreRequired": "Skor wajib diisi.",
+        "scoreBlank": "Skor tidak boleh kosong."
+      },
+      "update": {
+        "title": "Sunting Skor"
+      }
+    },
+    "skills": {
+      "list": {
+        "title": "Keahlian",
+        "searchLable": "Nama Keahlian"
+      },
+      "new": {
+        "title": "Keahlian Baru",
+        "skillName": "Nama Keahlian",
+        "skillNameRequired": "Nama Keahlian wajib diisi.",
+        "exp": "Pengalaman",
+        "expRequired": "Pengalaman wajib diisi.",
+        "comment": "Komentar",
+        "commentRequired": "Komentar wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Keahlian"
+      }
+    },
+    "workShift": {
+      "list": {
+        "title": "Shift Kerja",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Shift Kerja Baru",
+        "description": "Deskripsi",
+        "descriptionRequired": "Deskripsi wajib diisi."
+      },
+      "update": {
+        "title": "Sunting Shift Kerja"
+      }
+    }
+  },
+  "resourceEmployee": {
+    "personalDetails": {
+      "new": {
+        "title": "Detail Personal",
+        "firstName": "Nama Pertama",
+        "middleName": "Nama Tengah",
+        "lastName": "Nama Terakhir",
+        "photograph": "Foto",
+        "noKtp": "NIK",
+        "empId": "ID Karyawan",
+        "driverLicenseNo": "No. SIM",
+        "licenseExpDate": "Masa Berlaku SIM",
+        "bpjsKesehatan": "No BPJS Kesehatan",
+        "npwp": "NPWP",
+        "bpjsKetenagakerjaan": "No BPJS Ketenagakerjaan",
+        "workShift": "Jam Kerja",
+        "gender": "Jenis Kelamin",
+        "male": "Laki-laki",
+        "female": "Perempuan",
+        "maritalStatus": "Status Pernikahan",
+        "nationality": "Kebangsaan",
+        "dateOfBirth": "Tanggal Lahir",
+        "religion": "Agama",
+        "placeOfBirth": "Tempat Lahir",
+        "loginDetails": "Buat Detail Masuk",
+        "required": "Wajib Diisi",
+        "vendor": "Vendor"
+      }
+    },
+    "contactDetails": {
+      "addressStreet1": "Address Street 1",
+      "addressStreet2": "Address Street 2",
+      "country": "Country",
+      "province": "State/Province",
+      "city": "City",
+      "subDistrict": "Sub-district",
+      "village": "Village",
+      "zip": "ZIP/Postal Code",
+      "homeTelephone": "Home Telephone",
+      "mobile": "Mobile",
+      "workTelephone": "Work Telephone",
+      "workEmail": "Work Email",
+      "otherEmail": "Other Email"
+    },
+    "job": {
+      "jobTitle": "Job Title",
+      "jobCategory": "Job Category",
+      "employmentStatus": "Employment Status",
+      "joinedDate": "Joined Date",
+      "departement": "Departement",
+      "province": "State/Province",
+      "city": "City",
+      "attendanceType": "Attendance Type",
+      "resignDate": "Resign Date",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "qualifications": {
+      "required": "Wajib Diisi",
+      "new": {
+        "title": "Kualifikasi",
+        "workExperiences": {
+          "title": "Pengalaman Kerja",
+          "subtitle": "Pengalaman Kerja",
+          "company": "Perusahaan",
+          "jobTitle": "Nama Pekerjaan",
+          "fromMonth": "Bulan Masuk",
+          "fromYear": "Tahun Masuk",
+          "endMonth": "Bulan Keluar",
+          "endYear": "Tahun Keluar",
+          "comment": "Komentar"
+        },
+        "educations": {
+          "title": "Pendidikan",
+          "subtitle": "Pendidikan",
+          "level": "Tingkat",
+          "institute": "Institut",
+          "major": "Jurusan",
+          "year": "Tahun",
+          "gpa": "IPK",
+          "startMonth": "Bulan Masuk",
+          "startYear": "Tahun Masuk",
+          "endMonth": "Bulan Keluar",
+          "endYear": "Tahun Keluar"
+        },
+        "skills": {
+          "title": "Kemampuan",
+          "subtitle": "Kemampuan",
+          "skill": "Kemampuan",
+          "other": "Kemampuan Lain",
+          "exp": "Lama Pengalaman",
+          "comment": "Komentar"
+        },
+        "languages": {
+          "title": "Bahasa",
+          "subtitle": "Bahasa",
+          "language": "Bahasa",
+          "fluency": "Kelancaran",
+          "competency": "Kompetensi",
+          "comment": "Komentar"
+        },
+        "certifications": {
+          "title": "Sertifikasi",
+          "subtitle": "Sertifikasi",
+          "name": "Nama Sertifikat",
+          "number": "No. Sertifikat",
+          "date": "Tanggal Sertifikat",
+          "upload": "Unggah Sertifikat"
+        }
+      }
+    },
+    "emergencyContact": {
+      "inputEmergencyContact": "Form Kontak Darurat",
+      "emergencyContactTitle": "Kontak Darurat",
+      "name": "Nama",
+      "relationship": "Hubungan",
+      "mobile": "Telp. Seluler",
+      "homeTelephone": "Telp. Rumah",
+      "workTelephone": "Telp. Kantor",
+      "address": "Alamat"
+    },
+    "dependent": {
+      "dependentTitle": "Dependent",
+      "dependentIndex": "Dependent",
+      "name": "Nama",
+      "relationship": "Hubungan",
+      "gender": "Jenis Kelamin",
+      "dateOfBirth": "Tanggal Lahir"
+    }
+  },
+  "applicant": {
+    "personalInformations": {
+      "new": {
+        "title": "Informasi Personal",
+        "preferredProgram": "Program yang dipilih",
+        "check": "Tandai(v) Semua Tipe",
+        "sit": "SIT",
+        "uat": "UAT",
+        "sitLead": "Pimpinan SIT",
+        "uatLead": "Pimpinan UAT",
+        "name": "Nama",
+        "placeOfBirth": "Tempat Lahir",
+        "dateOfBirth": "Tanggal Lahir",
+        "gender": "Jenis Kelamin",
+        "male": "Laki-laki",
+        "female": "Perempuan",
+        "civicAddress": "Alamat",
+        "province": "Provinsi",
+        "city": "Kota",
+        "kecamatan": "Kecamatan",
+        "kelurahan": "Kelurahan",
+        "postalCode": "Kode Pos",
+        "telephone": "No. Telefon",
+        "telephoneOther": "No. Telefon(lainnya)",
+        "email": "Alamat E-mail",
+        "photo": "Foto"
+      }
+    },
+    "trainingCertification": {
+      "title": "Pelatihan dan Sertifikasi",
+      "subtitle1": "Pelatihan",
+      "subtitle2": "Sertifikasi",
+      "training": "Pelatihan",
+      "certification": "Sertifikasi",
+      "organizer": "Penyelenggara",
+      "startDate": "Tanggal Mulai",
+      "endDate": "Tanggal Berakhir",
+      "upload": "Unggah Sertifikat"
+    },
+    "family": {
+      "familyTitle": "Informasi Keluarga",
+      "information": "Informasi",
+      "wife": "Istri",
+      "husband": "Suami",
+      "name": "Nama",
+      "placeOfBirth": "Tempat Lahir",
+      "dateOfBirth": "Tanggal Lahir",
+      "dateOfMarried": "Tanggal Pernikahan",
+      "job": "Pekerjaan",
+      "telephone": "Telepon",
+      "informationChildren": "Informasi Anak",
+      "gender": "Jenis Kelamin",
+      "education": "Pendidikan",
+      "option": "Pilihan",
+      "informationParent": "Informasi Orang Tua",
+      "placeDateOfBirth": "Tempat, Tanggal Lahir",
+      "relation": "Hubungan",
+      "description": "Deskripsi",
+      "addInformationChildren": "Tambah Informasi Anak",
+      "addInformation Parent": "Tambah Informasi Orang Tua"
+    },
+    "educationWorkExperience": {
+      "title": "Pendidikan & Pengalaman Kerja",
+      "education": "Pendidikan",
+      "institution": "Institusi",
+      "major": "Jurusan",
+      "monthEnter": "Bulan Masuk",
+      "yearEnter": "Tahun Masuk",
+      "monthGraduation": "Bulan Kelulusan",
+      "yearGraduation": "Tahun Kelulusan",
+      "option": "Pilihan",
+      "workExperience": "Pengalaman Kerja",
+      "company": "Perusahaan",
+      "position": "Posisi",
+      "workUnit": "Unit Kerja",
+      "from": "Dari",
+      "upTo": "Sampai",
+      "language": "Pendidikan",
+      "mastery": "Penguasaan",
+      "score": "Nilai",
+      "attachment": "Lampiran",
+      "certificateOfGraduate": "Sertifikat Kelulusan",
+      "transcript": "Transkrip",
+      "educationLevel": "Level Pendidikan",
+      "industry": "Industri",
+      "salary": "Pendapatan",
+      "workDescription": "Deskripsi Pekerjaan",
+      "level": "Level"
+    }
+  },
+  "listAllLetter":{
+    "title": "Informasi Petugas",
+    "employee": "Petugas",
+    "nik": "NIP"
+  },
+  "suratLembur": {
+    "list": {
+      "title": "Surat Lembur"
+    },
+    "new": {
+      "letterNo": "No. Surat",
+      "overTimeDay": "Hari Lembur",
+      "overTimeDate": "Tanggal Lembur",
+      "overTimeType": "Sifat Pekerjaan",
+      "regular": "Rutin",
+      "irregular": "Tidak Rutin",
+      "trustee": {
+        "trustee": "Pengawas Kerja Lembur",
+        "nik": "NIK",
+        "name": "Nama",
+        "jobTitle": "Jabatan",
+        "workTime": "Waktu Lembur",
+        "notes": "Catatan Pengawas"
+      },
+      "employees": {
+        "employee": "Petugas Kerja Lembur",
+        "emp": "Petugas",
+        "nik": "NIK",
+        "name": "Nama",
+        "jobTitle": "Jabatan",
+        "timeIn": "Lembur Masuk",
+        "timeOut": "Lembur Keluar",
+        "workTime": "Waktu Lembur",
+        "toDo": "Pekerjaan yang harus diselesaikan"
+      }
+    }
+  }
+}

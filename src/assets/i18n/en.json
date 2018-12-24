@@ -1,0 +1,803 @@
+{
+  "TESTING": {
+    "Title": "Translation example",
+    "Intro": "Hello I am {{name}}, I am {{age}} years old."
+  },
+  "FORM1": {
+    "Form": "Form",
+    "Title": "Credit Card",
+    "Name": "Name",
+    "CCN": "Credit Card Number",
+    "Month": "Month",
+    "Year": "Year",
+    "CVV": "CVV/CVC",
+    "Table": "Data Table Example"
+  },
+  "HEADER": {
+    "Name": "Integrated Testing Management"
+  },
+  "header": {
+    "name": "Integrated Testing Management"
+  },
+  "SIDEBAR": {
+    "Dashboard": "Dashboard",
+    "Title-Registration": "REGISTRATION",
+    "Registration": "Registration",
+    "Example": "Example"
+  },
+  "BUTTON": {
+    "Modal": "Modal Example",
+    "Alert": "Alert Example"
+  },
+  "modal": {
+    "deleteWarningModal": "Warning",
+    "deleteWarningModalDescription": "Are you sure to delete this data?",
+    "titleLogout": "Log Out",
+    "bodyLogout": "Are you sure you want to logout?",
+    "titleSessionExpired": "Your session has expired",
+    "bodySessionExpired": "Please login again"
+  },
+  "button": {
+    "buttonSave": "Save",
+    "buttonUpdate": "Update",
+    "buttonEdit": "Edit",
+    "buttonReset": "Reset",
+    "buttonDelete": "Delete",
+    "buttonSearch": "Search",
+    "buttonDetail": "Detail",
+    "buttonApprove": "Approve",
+    "buttonReject": "Reject",
+    "buttonCancel": "Cancel",
+    "buttonNext": "Next",
+    "buttonLoad": "Load",
+    "buttonAdd": "Add",
+    "buttonBrowse": "Browse...",
+    "buttonZoomIn": "Zoom In",
+    "buttonZoomOut": "Zoom Out",
+    "buttonLogout": "Logout",
+    "buttonModal": "Modal",
+    "buttonAddApplicant": "Add Applicant",
+    "buttonInterviewed": "Interviewed",
+    "buttonGoInterview": "Go Interview",
+    "buttonRemove": "Remove",
+    "buttonAddNewTraining": "Add New Training",
+    "buttonAddNewCertification": "Add New Certification",
+    "buttonCancelAssign": "Cancel Assign",
+    "buttonAddResource": "Add Resource",
+    "buttonSubmitAssignment": "Submit Assignment",
+    "buttonExit": "Exit",
+    "buttonSubmit": "Submit",
+    "buttonAddDependent": "Add Dependent",
+    "buttonAddEmergencyContact": "Add Emergency Contact",
+    "buttonAddEmployee": "Add Employee",
+    "buttonAssignResource": "Assign Resource",
+    "buttonPushAssignment": "Push Assignment",
+    "buttonAddWorkExperience": "Add Work Experience",
+    "buttonAddEducations": "Add Educations",
+    "buttonAddSkill": "Add Skill",
+    "buttonAddLanguage": "Add Language",
+    "buttonAddCertification": "Add Certification",
+    "buttonNew": "New",
+    "buttonSaveAsADraft": "Save as a Draft",
+    "buttonSaveAndSend": "Save and Send",
+    "buttonChooseFile": "Choose File",
+    "buttonOptions": "Options"
+  },
+  "master": {
+    "attendanceTypes": {
+      "list": {
+        "title": "Attendance Types",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Attendance Types",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Attendance Types"
+      }
+    },
+    "competencies": {
+      "list": {
+        "title": "Competencies",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Competencies",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Competencies"
+      }
+    },
+    "currencies": {
+      "list": {
+        "title": "Currencies",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Currencies",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Currencies"
+      }
+    },
+    "levelTester": {
+      "list": {
+        "title": "Level",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Level",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Level"
+      }
+    },
+    "department": {
+      "list": {
+        "title": "Department",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Department",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Department"
+      }
+    },
+    "employmentStatus": {
+      "list": {
+        "title": "Employment Status",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Employment Status",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Employment Status"
+      }
+    },
+    "fluencies": {
+      "list": {
+        "title": "Fluencies",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Fluencies",
+        "description": "Description",
+        "descriptionRequired": "Description is required.",
+        "descriptionMinlength": "Minimum 2 characters long."
+      },
+      "update": {
+        "title": "Update Fluencies"
+      }
+    },
+    "gender": {
+      "list": {
+        "title": "Gender",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Gender",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Gender"
+      }
+    },
+    "golongan": {
+      "list": {
+        "title": "Golongan",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Golongan",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Golongan"
+      }
+    },
+    "resourceEmployeeLeave": {
+      "list": {
+        "title": "Annual Leave",
+        "searchLable": "Name"
+      },
+      "new": {
+        "title": "New Annual Leave",
+        "resourceEmployee": "Id Resource Employee",
+        "year": "Year",
+        "quotaLeft": "Leave Quota",
+        "yearRequired": "Year is required.",
+        "quotaLeftRequired": "Leave quota is required."
+      },
+      "update": {
+        "title": "Update Annual Leave"
+      }
+    },
+    "institutes": {
+      "list": {
+        "title": "Institutes",
+        "searchLable": "Institute Name"
+      },
+      "new": {
+        "title": "New Institute",
+        "instituteName": "Institute's Name",
+        "instituteNameRequired": "Institute's Name is required.",
+        "instituteNameBlank": "Institute's Name Cannot Be Blank."
+      },
+      "update": {
+        "title": "Update Institutes"
+      }
+    },
+    "interviewer": {
+      "list": {
+        "title": "Interviewer",
+        "searchLable": "Name"
+      },
+      "new": {
+        "title": "New Interviewer",
+        "name": "Name",
+        "position": "Position",
+        "workUnit": "Work Unit"
+      },
+      "update": {
+        "title": "Update Interviewer"
+      }
+    },
+    "jobCategory": {
+      "list": {
+        "title": "Job Category",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Job Category",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Job Category"
+      }
+    },
+    "jobTitle": {
+      "list": {
+        "title": "Job Title",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Job Title",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Job Title"
+      }
+    },
+    "kecamatan": {
+      "list": {
+        "title": "Kecamatan",
+        "searchLable": "Kecamatan"
+      }
+    },
+    "kelurahan": {
+      "list": {
+        "title": "Kelurahan",
+        "searchLable": "Kelurahan"
+      }
+    },
+    "postalCode": {
+      "list": {
+        "title": "Postal Code",
+        "searchLable": "Postal Code"
+      }
+    },
+    "city": {
+      "list": {
+        "title": "City/Regency",
+        "searchLable": "City/Regency"
+      }
+    },
+    "languages": {
+      "list": {
+        "title": "Languages",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Languages",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Languages"
+      }
+    },
+    "level": {
+      "list": {
+        "title": "Level",
+        "searchLable": "Level Name"
+      },
+      "new": {
+        "title": "New Level",
+        "levelName": "Level Name",
+        "levelNameRequired": "Level name is required",
+        "levelNameBlank": "Level name cannot be blank"
+      },
+      "update": {
+        "title": "Update Level"
+      }
+    },
+    "bookstatus": {
+      "new": {
+        "bookstatusRequired": "Description is required",
+        "bookstatuseBlank": "Description cannot be blank"
+      }
+    },
+    "levelEducations": {
+      "list": {
+        "title": "Educations Level",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Education Level",
+        "description": "Description",
+        "descriptionRequired": "Description is required.",
+        "descriptionBlank": "Description Cannot Be Blank."
+      },
+      "update": {
+        "title": "Update Educations Level"
+      }
+    },
+    "majors": {
+      "list": {
+        "title": "Majors",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Major",
+        "description": "Description",
+        "descriptionRequired": "Description is required.",
+        "descriptionMinlength": "Minimum 2 characters long."
+      },
+      "update": {
+        "title": "Update Major"
+      }
+    },
+    "maritalStatus": {
+      "list": {
+        "title": "Marital Status",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Marital Status",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Marital Status"
+      }
+    },
+    "monitionLevel": {
+      "list": {
+        "title": "Monition Level",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Monition Level",
+        "description": "Description",
+        "searchLableRequired": "Description is required",
+        "searchLableBlank": "Description cannot be blank "
+      },
+      "update": {
+        "title": "Update Monition Level"
+      }
+    },
+    "country": {
+      "list": {
+        "title": "Countries",
+        "searchLable": "Description"
+      }
+    },
+    "payFrequencies": {
+      "list": {
+        "title": "Pay Frequencies",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Pay Frequencies",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      }
+    },
+    "payGrades": {
+      "list": {
+        "title": "Pay Grades",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Pay Grades",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Pay Grades"
+      }
+    },
+    "program": {
+      "list": {
+        "title": "Program",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Program",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Program"
+      }
+    },
+    "provinsi": {
+      "list": {
+        "title": "Province",
+        "searchLable": "Description"
+      }
+    },
+    "relationship": {
+      "list": {
+        "title": "Relationship",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Relationship",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Relationship"
+      }
+    },
+    "relationshipFamily": {
+      "list": {
+        "title": "Relationship Family",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Relationship Family",
+        "description": "Description"
+      },
+      "update": {
+        "title": "Update Relationship Family"
+      }
+    },
+    "religion": {
+      "list": {
+        "title": "Religion",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Religion",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Religion"
+      }
+    },
+    "score": {
+      "list": {
+        "title": "Score",
+        "searchLable": "Score"
+      },
+      "new": {
+        "title": "New Score",
+        "score": "Score",
+        "scoreRequired": "Score is required.",
+        "scoreBlank": "Score cannot be blank."
+      },
+      "update": {
+        "title": "Update Score"
+      }
+    },
+    "skills": {
+      "list": {
+        "title": "Skills",
+        "searchLable": "Skill Name"
+      },
+      "new": {
+        "title": "New Skill",
+        "skillName": "Skill Name",
+        "skillNameRequired": "Skill Name is Required.",
+        "exp": "Experience",
+        "expRequired": "Experience is Required",
+        "comment": "Comment",
+        "commentRequired": "Comment is required."
+      },
+      "update": {
+        "title": "Update Skill"
+      }
+    },
+    "workShift": {
+      "list": {
+        "title": "Work Shift",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "New Work Shift",
+        "description": "Description",
+        "descriptionRequired": "Description is required."
+      },
+      "update": {
+        "title": "Update Work Shift"
+      }
+    }
+  },
+  "resourceEmployee": {
+    "personalDetails": {
+      "new": {
+        "title": "Personal Details",
+        "firstName": "First Name",
+        "middleName": "Middle Name",
+        "lastName": "Last Name",
+        "photograph": "Photograph*",
+        "noKtp": "NIK*",
+        "empId": "Employee ID",
+        "driverLicenseNo": "Driver License No.",
+        "licenseExpDate": "License Expiry Date",
+        "bpjsKesehatan": "BPJS Kesehatan No",
+        "npwp": "NPWP",
+        "bpjsKetenagakerjaan": "BPJS Ketenagakerjaan No",
+        "workShift": "Work Shift",
+        "gender": "Gender*",
+        "male": "Male",
+        "female": "Female",
+        "maritalStatus": "Marital Status*",
+        "nationality": "Nationality",
+        "dateOfBirth": "Date Of Birth*",
+        "religion": "Religion*",
+        "placeOfBirth": "Place Of Birth*",
+        "loginDetails": "Create Login Details",
+        "required": "Required Field",
+        "vendor": "Vendor*"
+      }
+    },
+    "contactDetails": {
+      "addressStreet1": "Address Street 1*",
+      "addressStreet2": "Address Street 2",
+      "country": "Country*",
+      "province": "State/Province*",
+      "city": "City*",
+      "subDistrict": "Sub-district*",
+      "village": "Village*",
+      "zip": "ZIP/Postal Code*",
+      "homeTelephone": "Home Phone Number",
+      "mobile": "Cellular Phone Number*",
+      "workTelephone": "Work Telephone",
+      "workEmail": "Email Address 1*",
+      "otherEmail": "Email Address 2"
+    },
+    "job": {
+      "jobTitle": "Job Title",
+      "jobCategory": "Job Category",
+      "employmentStatus": "Employment Status",
+      "joinedDate": "Joined Date",
+      "departement": "Departement",
+      "province": "State/Province",
+      "city": "City",
+      "attendanceType": "Attendance Type",
+      "resignDate": "Resign Date",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "qualifications": {
+      "required": "Required Field",
+      "new": {
+        "title": "Qualifications",
+        "workExperiences": {
+          "title": "Work Experiences",
+          "subtitle": "Work Experience",
+          "company": "Company",
+          "jobTitle": "Job Title",
+          "fromMonth": "From Month",
+          "fromYear": "From Year",
+          "endMonth": "End Month",
+          "endYear": "End Year",
+          "comment": "Comment"
+        },
+        "educations": {
+          "title": "Educations",
+          "subtitle": "Education",
+          "level": "Level",
+          "institute": "Institute",
+          "major": "Major/Specialization",
+          "year": "Year",
+          "gpa": "GPA/Score",
+          "startMonth": "Start Month",
+          "startYear": "Start Year",
+          "endMonth": "End Month",
+          "endYear": "End Year"
+        },
+        "skills": {
+          "title": "Skills",
+          "subtitle": "Skill",
+          "skill": "Skill",
+          "other": "Other Skill",
+          "exp": "Year(s) of Experience",
+          "comment": "Comment"
+        },
+        "languages": {
+          "title": "Languages",
+          "subtitle": "Language",
+          "language": "Language",
+          "fluency": "Fluency",
+          "competency": "Competency",
+          "comment": "Comment"
+        },
+        "certifications": {
+          "title": "Certifications",
+          "subtitle": "Certification",
+          "name": "Certificate Name",
+          "number": "Certificate Number",
+          "date": "Certificate Date",
+          "upload": "Upload Certificate"
+        }
+      }
+    },
+    "emergencyContact": {
+      "inputEmergencyContact": "Input Emergency Contact",
+      "emergencyContactTitle": "Emergency Contact",
+      "name": "Name",
+      "relationship": "Relationship",
+      "mobile": "Mobile",
+      "homeTelephone": "Home Telephone",
+      "workTelephone": "Work Telephone",
+      "address": "Address"
+    },
+    "dependent": {
+      "dependentTitle": "Dependent",
+      "dependentIndex": "Dependent",
+      "name": "Name",
+      "relationship": "Relationship",
+      "gender": "Gender",
+      "dateOfBirth": "Date Of Birth"
+    }
+  },
+  "applicant": {
+    "personalInformations": {
+      "new": {
+        "title": "Personal Informations",
+        "preferredProgram": "Preferred Program",
+        "check": "Check(v) All That Type",
+        "sit": "SIT",
+        "uat": "UAT",
+        "sitLead": "SIT Lead",
+        "uatLead": "UAT Lead",
+        "name": "Name",
+        "placeOfBirth": "Place Of Birth",
+        "dateOfBirth": "Date Of Birth",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "civicAddress": "Civic Address",
+        "province": "Province",
+        "city": "City",
+        "kecamatan": "Kecamatan",
+        "kelurahan": "Kelurahan",
+        "postalCode": "Postal Code",
+        "telephone": "Telephone",
+        "telephoneOther": "Telephone (Other)",
+        "email": "Email Address",
+        "photo": "Photo"
+      }
+    },
+    "trainingCertification": {
+      "title": "Trainings and Certifications",
+      "subtitle1": "Training",
+      "subtitle2": "Certification",
+      "training": "Training",
+      "certification": "Certification",
+      "organizer": "Organizer",
+      "date": "Date",
+      "upload": "Upload Certificate"
+    },
+    "family": {
+      "familyTitle": "Family Information",
+      "information": "Information",
+      "wife": "Wife",
+      "husband": "Husband",
+      "name": "Name",
+      "placeOfBirth": "Place Of Birth",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfMarried": "Date Of Married",
+      "job": "Job",
+      "telephone": "Telephone",
+      "informationChildren": "Information Children",
+      "gender": "Gender",
+      "education": "Education",
+      "option": "Option",
+      "informationParent": "Information Parent",
+      "placeDateOfBirth": "Place, Date Of Birth",
+      "relation": "Relation",
+      "description": "Description",
+      "addInformationChildren": "Add Information Children",
+      "addInformationParent": "Add Information Parent"
+    },
+    "educationWorkExperience": {
+      "title": "EDUCATION & WORK EXPERIENCE",
+      "education": "Education",
+      "institution": "Institution",
+      "major": "Major",
+      "monthEnter": "Month Enter",
+      "yearEnter": "Year Enter",
+      "monthGraduation": "Month Graduation",
+      "yearGraduation": "Year Graduation",
+      "option": "Option",
+      "workExperience": "Work Experience",
+      "company": "Company",
+      "position": "Position",
+      "workUnit": "workUnit",
+      "from": "From",
+      "upTo": "Up To",
+      "language": "Language",
+      "mastery": "Mastery",
+      "score": "Score",
+      "attachment": "Attachment",
+      "certificateOfGraduate": "Certificate Of Graduate",
+      "transcript": "Transcript",
+      "educationLevel": "Education Level",
+      "industry": "Industry",
+      "salary": "Salary",
+      "workDescription": "Work Description",
+      "level": "Level"
+    }
+  },
+  "listAllLetter": {
+    "title": "Employee Informations",
+    "employee": "Employee",
+    "nik": "Employee ID"
+  },
+  "suratLembur": {
+    "list": {
+      "title": "Surat Lembur"
+    },
+    "new": {
+      "letterNo": "Letter No.",
+      "overTimeDay": "Day of Overtime",
+      "overTimeDate": "Date of Overtime",
+      "overTimeType": "Type of Overtime",
+      "regular": "Regular",
+      "irregular": "Irregular",
+      "trustee": {
+        "trustee": "Trustee",
+        "nik": "NIK",
+        "name": "Name",
+        "jobTitle": "Job Title",
+        "workTime": "Work Time",
+        "notes": "Notes"
+      },
+      "employees": {
+        "employee": "Employees",
+        "emp": "Employee",
+        "nik": "NIK",
+        "name": "Name",
+        "jobTitle": "Job Title",
+        "timeIn": "Time In",
+        "timeOut": "Time Out",
+        "workTime": "Work Time",
+        "toDo": "Work To Do"
+      }
+    }
+  }
+}
