@@ -100,6 +100,25 @@
         "name": "Name",
         "description": "Description"
       }
+    },
+    "Color": {
+      "list": {
+        "title": "Color of Device",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "Color of Device",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "Color of Device",
+        "id": "ID",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      }
     }
   }
 }

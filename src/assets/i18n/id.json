@@ -85,6 +85,25 @@
         "name": "Nama",
         "description": "Keterangan"
       }
+    },
+    "Color": {
+      "list": {
+        "title": "Warna Perangkat",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Warna Perangkat",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Warna Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      }
     }
   }
 }

@@ -14,6 +14,10 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {AlertModule, ModalModule} from 'ngx-bootstrap';
 import {Ng4LoadingSpinnerModule} from 'ng4-loading-spinner';
+import {ListColorComponent} from './color/list-color/list-color.component';
+import {NewColorComponent} from './color/new-color/new-color.component';
+import {UpdateColorComponent} from './color/update-color/update-color.component';
+import {ColorService} from './color/color.service';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -41,14 +45,18 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     ListCategoryDeviceComponent,
     NewCategoryDeviceComponent,
-    UpdateCategoryDeviceComponent
+    UpdateCategoryDeviceComponent,
+    ListColorComponent,
+    NewColorComponent,
+    UpdateColorComponent
   ], providers: [
     {
       provide: HTTP_INTERCEPTORS,
       multi: true,
       useClass: AuthenticationInterceptor
     },
-    CategoryDeviceService
+    CategoryDeviceService,
+    ColorService
   ]
 })
 export class MasterModule {
