@@ -161,6 +161,25 @@
         "code": "Kode",
         "description": "Keterangan"
       }
+    },
+    "LoanStatusDevice": {
+      "list": {
+        "title": "Status Peminjaman Perangkat",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Status Peminjaman Perangkat",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Status Peminjaman Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      }
     }
   }
 }

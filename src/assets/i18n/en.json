@@ -176,6 +176,25 @@
         "code": "Code",
         "description": "Description"
       }
+    },
+    "LoanStatusDevice": {
+      "list": {
+        "title": "Device Loan Status",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "Device Loan Status",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "Device Loan Status",
+        "id": "ID",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      }
     }
   }
 }

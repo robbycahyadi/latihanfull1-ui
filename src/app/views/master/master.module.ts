@@ -30,6 +30,10 @@ import {ListUnitCapacityDeviceComponent} from './unit-capacity-device/list-unit-
 import {NewUnitCapacityDeviceComponent} from './unit-capacity-device/new-unit-capacity-device/new-unit-capacity-device.component';
 import {UpdateUnitCapacityDeviceComponent} from './unit-capacity-device/update-unit-capacity-device/update-unit-capacity-device.component';
 import {UnitCapacityDeviceService} from './unit-capacity-device/unit-capacity-device.service';
+import {ListLoanStatusDeviceComponent} from './loan-status-device/list-loan-status-device/list-loan-status-device.component';
+import {NewLoanStatusDeviceComponent} from './loan-status-device/new-loan-status-device/new-loan-status-device.component';
+import {UpdateLoanStatusDeviceComponent} from './loan-status-device/update-loan-status-device/update-loan-status-device.component';
+import {LoanStatusDeviceService} from './loan-status-device/loan-status-device.service';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -69,7 +73,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     UpdateConditionDeviceComponent,
     ListUnitCapacityDeviceComponent,
     NewUnitCapacityDeviceComponent,
-    UpdateUnitCapacityDeviceComponent
+    UpdateUnitCapacityDeviceComponent,
+    ListLoanStatusDeviceComponent,
+    NewLoanStatusDeviceComponent,
+    UpdateLoanStatusDeviceComponent
   ], providers: [
     {
       provide: HTTP_INTERCEPTORS,
@@ -80,7 +87,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ColorService,
     BrandDeviceService,
     ConditionDeviceService,
-    UnitCapacityDeviceService
+    UnitCapacityDeviceService,
+    LoanStatusDeviceService
   ]
 })
 export class MasterModule {

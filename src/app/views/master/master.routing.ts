@@ -15,6 +15,9 @@ import {ListConditionDeviceComponent} from './condition-device/list-condition-de
 import {ListUnitCapacityDeviceComponent} from './unit-capacity-device/list-unit-capacity-device/list-unit-capacity-device.component';
 import {NewUnitCapacityDeviceComponent} from './unit-capacity-device/new-unit-capacity-device/new-unit-capacity-device.component';
 import {UpdateUnitCapacityDeviceComponent} from './unit-capacity-device/update-unit-capacity-device/update-unit-capacity-device.component';
+import {ListLoanStatusDeviceComponent} from './loan-status-device/list-loan-status-device/list-loan-status-device.component';
+import {NewLoanStatusDeviceComponent} from './loan-status-device/new-loan-status-device/new-loan-status-device.component';
+import {UpdateLoanStatusDeviceComponent} from './loan-status-device/update-loan-status-device/update-loan-status-device.component';
 
 const routes: Routes = [
   {
@@ -126,6 +129,27 @@ const routes: Routes = [
         component: UpdateUnitCapacityDeviceComponent,
         data: {
           title: 'Update a unit capacity of device'
+        }
+      },
+      {
+        path: 'loan-status-device',
+        component: ListLoanStatusDeviceComponent,
+        data: {
+          title: 'Loan Status of Devices'
+        }
+      },
+      {
+        path: 'loan-status-device/new',
+        component: NewLoanStatusDeviceComponent,
+        data: {
+          title: 'New Loan Status of Device'
+        }
+      },
+      {
+        path: 'loan-status-device/:id',
+        component: UpdateLoanStatusDeviceComponent,
+        data: {
+          title: 'Update a Loan Status of Device'
         }
       }
     ]

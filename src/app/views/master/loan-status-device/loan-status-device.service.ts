@@ -2,15 +2,15 @@ import {Injectable} from '@angular/core';
 import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
-import {UnitCapacityDevice} from '../../../entity/unit-capacity-device.model';
+import {LoanStatusDevice} from '../../../entity/loan-status-device.model';
 
 @Injectable()
-export class UnitCapacityDeviceService {
+export class LoanStatusDeviceService {
 
   constructor(private _http: HttpClient) {
   }
 
-  public datatables(value: UnitCapacityDevice, datatablesParameters: any) {
+  public datatables(value: LoanStatusDevice, datatablesParameters: any) {
     let params = new HttpParams();
     params = params.append('start', datatablesParameters.start);
     params = params.append('length', datatablesParameters.length);
@@ -20,25 +20,25 @@ export class UnitCapacityDeviceService {
 
     return this._http
       .post<DatatablesModelResponse>(
-        `${environment.supportDeviceApi}/master/unit-capacity-device/datatables`,
+        `${environment.supportDeviceApi}/master/loan-status-device/datatables`,
         value, {params: params}
       );
   }
 
-  public save(value: UnitCapacityDevice) {
-    return this._http.post(`${environment.supportDeviceApi}/master/unit-capacity-device/`, value);
+  public save(value: LoanStatusDevice) {
+    return this._http.post(`${environment.supportDeviceApi}/master/loan-status-device/`, value);
   }
 
-  public update(value: UnitCapacityDevice) {
-    return this._http.put(`${environment.supportDeviceApi}/master/unit-capacity-device/`, value);
+  public update(value: LoanStatusDevice) {
+    return this._http.put(`${environment.supportDeviceApi}/master/loan-status-device/`, value);
   }
 
 
   public getChangeTypes(id: number) {
-    return this._http.get(`${environment.supportDeviceApi}/master/unit-capacity-device/${id}`, {observe: 'response'});
+    return this._http.get(`${environment.supportDeviceApi}/master/loan-status-device/${id}`, {observe: 'response'});
   }
 
   public remove(id: number) {
-    return this._http.delete(`${environment.supportDeviceApi}/master/unit-capacity-device/${id}`, {observe: 'response'});
+    return this._http.delete(`${environment.supportDeviceApi}/master/loan-status-device/${id}`, {observe: 'response'});
   }
 }
