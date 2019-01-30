@@ -119,6 +119,63 @@
         "code": "Code",
         "description": "Description"
       }
+    },
+    "BrandDevice": {
+      "list": {
+        "title": "Brand of Device",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "Brand of Device",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "Brand of Device",
+        "id": "ID",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      }
+    },
+    "ConditionDevice": {
+      "list": {
+        "title": "Condition of Device",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "Condition of Device",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "Condition of Device",
+        "id": "ID",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      }
+    },
+    "UnitCapacityDevice": {
+      "list": {
+        "title": "Device Unit Capacity",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "Device Unit Capacity",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "Device Unit Capacity",
+        "id": "ID",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      }
     }
   }
 }

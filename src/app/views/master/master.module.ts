@@ -18,6 +18,18 @@ import {ListColorComponent} from './color/list-color/list-color.component';
 import {NewColorComponent} from './color/new-color/new-color.component';
 import {UpdateColorComponent} from './color/update-color/update-color.component';
 import {ColorService} from './color/color.service';
+import {ListBrandDeviceComponent} from './brand-device/list-brand-device/list-brand-device.component';
+import {NewBrandDeviceComponent} from './brand-device/new-brand-device/new-brand-device.component';
+import {UpdateBrandDeviceComponent} from './brand-device/update-brand-device/update-brand-device.component';
+import {BrandDeviceService} from './brand-device/brand-device.service';
+import {ListConditionDeviceComponent} from './condition-device/list-condition-device/list-condition-device.component';
+import {NewConditionDeviceComponent} from './condition-device/new-condition-device/new-condition-device.component';
+import {UpdateConditionDeviceComponent} from './condition-device/update-condition-device/update-condition-device.component';
+import {ConditionDeviceService} from './condition-device/condition-device.service';
+import {ListUnitCapacityDeviceComponent} from './unit-capacity-device/list-unit-capacity-device/list-unit-capacity-device.component';
+import {NewUnitCapacityDeviceComponent} from './unit-capacity-device/new-unit-capacity-device/new-unit-capacity-device.component';
+import {UpdateUnitCapacityDeviceComponent} from './unit-capacity-device/update-unit-capacity-device/update-unit-capacity-device.component';
+import {UnitCapacityDeviceService} from './unit-capacity-device/unit-capacity-device.service';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -48,7 +60,16 @@ export function HttpLoaderFactory(http: HttpClient) {
     UpdateCategoryDeviceComponent,
     ListColorComponent,
     NewColorComponent,
-    UpdateColorComponent
+    UpdateColorComponent,
+    ListBrandDeviceComponent,
+    NewBrandDeviceComponent,
+    UpdateBrandDeviceComponent,
+    ListConditionDeviceComponent,
+    NewConditionDeviceComponent,
+    UpdateConditionDeviceComponent,
+    ListUnitCapacityDeviceComponent,
+    NewUnitCapacityDeviceComponent,
+    UpdateUnitCapacityDeviceComponent
   ], providers: [
     {
       provide: HTTP_INTERCEPTORS,
@@ -56,7 +77,10 @@ export function HttpLoaderFactory(http: HttpClient) {
       useClass: AuthenticationInterceptor
     },
     CategoryDeviceService,
-    ColorService
+    ColorService,
+    BrandDeviceService,
+    ConditionDeviceService,
+    UnitCapacityDeviceService
   ]
 })
 export class MasterModule {

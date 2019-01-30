@@ -104,6 +104,63 @@
         "code": "Kode",
         "description": "Keterangan"
       }
+    },
+    "BrandDevice": {
+      "list": {
+        "title": "Merk Perangkat",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Merk Perangkat",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Merk Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      }
+    },
+    "ConditionDevice": {
+      "list": {
+        "title": "Kondisi Perangkat",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Kondisi Perangkat",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Kondisi Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      }
+    },
+    "UnitCapacityDevice": {
+      "list": {
+        "title": "Kapasitas Unit Perangkat",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Kapasitas Unit Perangkat",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Kapasitas Unit Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      }
     }
   }
 }

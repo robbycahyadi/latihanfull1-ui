@@ -1,17 +1,17 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute, Params, Router} from '@angular/router';
 import {ToastrService} from 'ngx-toastr';
-import {ColorService} from '../color.service';
+import {ConditionDeviceService} from '../condition-device.service';
 import {Subscription} from 'rxjs';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import {Color} from '../../../../entity/color.model';
+import {ConditionDevice} from '../../../../entity/condition-device.model';
 
 @Component({
-  selector: 'app-update-color',
-  templateUrl: './update-color.component.html',
-  styleUrls: ['./update-color.component.scss']
+  selector: 'app-update-condition-device',
+  templateUrl: './update-condition-device.component.html',
+  styleUrls: ['./update-condition-device.component.scss']
 })
-export class UpdateColorComponent implements OnInit, OnDestroy {
+export class UpdateConditionDeviceComponent implements OnInit, OnDestroy {
 
   private subcribeTopic: Subscription;
   form: FormGroup;
@@ -19,7 +19,7 @@ export class UpdateColorComponent implements OnInit, OnDestroy {
 
   constructor(
     private _router: Router,
-    private _service: ColorService,
+    private _service: ConditionDeviceService,
     private _activeRoute: ActivatedRoute,
     private _toastr: ToastrService,
     private _formBuilder: FormBuilder) {
@@ -37,9 +37,9 @@ export class UpdateColorComponent implements OnInit, OnDestroy {
       const id = params['id'];
       this._service.getChangeTypes(id).subscribe((response: any) => {
         if (response.status === 204) {
-          this._router.navigate(['master', 'color-device']);
+          this._router.navigate(['master', 'condition-device']);
         } else {
-          const value: Color = response.body;
+          const value: ConditionDevice = response.body;
           console.log(value);
           this.form.setValue({
               'id': value.id,
@@ -62,12 +62,12 @@ export class UpdateColorComponent implements OnInit, OnDestroy {
         });
       return;
     }
-    const value: Color = this.form.value;
+    const value: ConditionDevice = this.form.value;
     this._service.update(value).subscribe(resp => {
-      this._toastr.info('Change a color of device', 'Update Success');
-      this._router.navigate(['master', 'color-device']);
+      this._toastr.info('Change a condition of device', 'Update Success');
+      this._router.navigate(['master', 'condition-device']);
     }, error => {
-      this._toastr.warning('Cant Update a color of device', 'Oppss...');
+      this._toastr.warning('Can\'t Update a condition of device', 'Oppss...');
       console.error('Can\'t be saved');
     });
   }

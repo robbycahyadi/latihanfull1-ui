@@ -6,6 +6,15 @@ import {UpdateCategoryDeviceComponent} from './category-device/update-category-d
 import {ListColorComponent} from './color/list-color/list-color.component';
 import {NewColorComponent} from './color/new-color/new-color.component';
 import {UpdateColorComponent} from './color/update-color/update-color.component';
+import {ListBrandDeviceComponent} from './brand-device/list-brand-device/list-brand-device.component';
+import {NewBrandDeviceComponent} from './brand-device/new-brand-device/new-brand-device.component';
+import {UpdateBrandDeviceComponent} from './brand-device/update-brand-device/update-brand-device.component';
+import {UpdateConditionDeviceComponent} from './condition-device/update-condition-device/update-condition-device.component';
+import {NewConditionDeviceComponent} from './condition-device/new-condition-device/new-condition-device.component';
+import {ListConditionDeviceComponent} from './condition-device/list-condition-device/list-condition-device.component';
+import {ListUnitCapacityDeviceComponent} from './unit-capacity-device/list-unit-capacity-device/list-unit-capacity-device.component';
+import {NewUnitCapacityDeviceComponent} from './unit-capacity-device/new-unit-capacity-device/new-unit-capacity-device.component';
+import {UpdateUnitCapacityDeviceComponent} from './unit-capacity-device/update-unit-capacity-device/update-unit-capacity-device.component';
 
 const routes: Routes = [
   {
@@ -54,6 +63,69 @@ const routes: Routes = [
         component: UpdateColorComponent,
         data: {
           title: 'Update a color of device'
+        }
+      },
+      {
+        path: 'brand-device',
+        component: ListBrandDeviceComponent,
+        data: {
+          title: 'Brand of Devices'
+        }
+      },
+      {
+        path: 'brand-device/new',
+        component: NewBrandDeviceComponent,
+        data: {
+          title: 'New brand of device'
+        }
+      },
+      {
+        path: 'brand-device/:id',
+        component: UpdateBrandDeviceComponent,
+        data: {
+          title: 'Update a brand of device'
+        }
+      },
+      {
+        path: 'condition-device',
+        component: ListConditionDeviceComponent,
+        data: {
+          title: 'Condition of Devices'
+        }
+      },
+      {
+        path: 'condition-device/new',
+        component: NewConditionDeviceComponent,
+        data: {
+          title: 'New condition of device'
+        }
+      },
+      {
+        path: 'condition-device/:id',
+        component: UpdateConditionDeviceComponent,
+        data: {
+          title: 'Update a condition of device'
+        }
+      },
+      {
+        path: 'unit-capacity-device',
+        component: ListUnitCapacityDeviceComponent,
+        data: {
+          title: 'Unit Capacity of Devices'
+        }
+      },
+      {
+        path: 'unit-capacity-device/new',
+        component: NewUnitCapacityDeviceComponent,
+        data: {
+          title: 'New unit capacity of device'
+        }
+      },
+      {
+        path: 'unit-capacity-device/:id',
+        component: UpdateUnitCapacityDeviceComponent,
+        data: {
+          title: 'Update a unit capacity of device'
         }
       }
     ]
