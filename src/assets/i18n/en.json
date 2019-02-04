@@ -195,6 +195,25 @@
         "code": "Code",
         "description": "Description"
       }
+    },
+    "Device": {
+      "list": {
+        "title": "Master Device",
+        "searchLable": "Description"
+      },
+      "new": {
+        "title": "Master Device",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      },
+      "updated": {
+        "title": "Master Device",
+        "id": "ID",
+        "name": "Name",
+        "code": "Code",
+        "description": "Description"
+      }
     }
   }
 }

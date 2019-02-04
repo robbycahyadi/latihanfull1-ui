@@ -18,6 +18,7 @@ import {UpdateUnitCapacityDeviceComponent} from './unit-capacity-device/update-u
 import {ListLoanStatusDeviceComponent} from './loan-status-device/list-loan-status-device/list-loan-status-device.component';
 import {NewLoanStatusDeviceComponent} from './loan-status-device/new-loan-status-device/new-loan-status-device.component';
 import {UpdateLoanStatusDeviceComponent} from './loan-status-device/update-loan-status-device/update-loan-status-device.component';
+import {ListMasterDeviceComponent} from './master-device/list-master-device/list-master-device.component';
 
 const routes: Routes = [
   {
@@ -151,7 +152,14 @@ const routes: Routes = [
         data: {
           title: 'Update a Loan Status of Device'
         }
-      }
+      },
+      {
+        path: 'device',
+        component: ListMasterDeviceComponent,
+        data: {
+          title: 'Master of Devices'
+        }
+      },
     ]
   }
 ];

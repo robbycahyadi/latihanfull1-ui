@@ -180,6 +180,25 @@
         "code": "Kode",
         "description": "Keterangan"
       }
+    },
+    "Device": {
+      "list": {
+        "title": "Master Perangkat",
+        "searchLable": "Deskripsi"
+      },
+      "new": {
+        "title": "Master Perangkat",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      },
+      "updated": {
+        "title": "Master Perangkat",
+        "id": "ID",
+        "name": "Nama",
+        "code": "Kode",
+        "description": "Keterangan"
+      }
     }
   }
 }
