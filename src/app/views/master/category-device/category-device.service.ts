@@ -3,6 +3,8 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
 import {CategoryDevice} from '../../../entity/category-device.model';
+import {Observable} from 'rxjs';
+import {Color} from '../../../entity/color.model';
 
 @Injectable()
 export class CategoryDeviceService {
@@ -23,6 +25,10 @@ export class CategoryDeviceService {
         `${environment.supportDeviceApi}/master/category-device/datatables`,
         value, {params: params}
       );
+  }
+
+  public list(): Observable<CategoryDevice[]> {
+    return this._http.get<CategoryDevice[]>(`${environment.supportDeviceApi}/master/category-device/lists`);
   }
 
   public save(value: CategoryDevice) {

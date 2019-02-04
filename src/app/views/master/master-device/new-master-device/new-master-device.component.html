@@ -1,12 +1,12 @@
 <div class="animated fadeIn">
   <div class="card">
     <div class="card-header">
-      <strong>{{'master.LoanStatusDevice.new.title' | translate}}</strong>
+      <strong>{{'master.Device.new.title' | translate}}</strong>
     </div>
     <form [formGroup]="form" (submit)="send($event)">
       <div class="card-body">
         <div class="form-group row col-md-12">
-          <label for="name" class="col-md-2 col-form-label">{{'master.LoanStatusDevice.new.name' | translate}}
+          <label for="name" class="col-md-2 col-form-label">{{'master.Device.new.name' | translate}}
             *</label>
           <div class="col-md-9">
             <input formControlName="name" type="text" name="name" id="name" class="col-md-3 form-control"
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="form-group row col-md-12">
-          <label for="name" class="col-md-2 col-form-label">{{'master.LoanStatusDevice.new.code' | translate}}
+          <label for="name" class="col-md-2 col-form-label">{{'master.Device.new.code' | translate}}
             *</label>
           <div class="col-md-9">
             <input formControlName="code" type="text" name="code" id="code" class="col-md-3 form-control"
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="form-group row col-md-12">
-          <label for="description" class="col-md-2 col-form-label">{{'master.LoanStatusDevice.new.description' | translate}}
+          <label for="description" class="col-md-2 col-form-label">{{'master.Device.new.description' | translate}}
             *</label>
           <div class="col-md-9">
             <input formControlName="description" type="text" name="description" id="description"
@@ -43,6 +43,60 @@
                 Description is required.
               </div>
             </div>
+          </div>
+        </div>
+        <div class="form-group row col-md-12">
+          <label for="category" class="col-md-2 col-form-label">{{'master.Device.new.category' | translate}}
+            *</label>
+          <div class="col-md-9">
+            <select class="form-control" id="category" required>
+              <option *ngFor="let cat of cats" [value]="cat.id">{{cat.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row col-md-12">
+          <label for="color" class="col-md-2 col-form-label">{{'master.Device.new.color' | translate}}
+            *</label>
+          <div class="col-md-9">
+            <select class="form-control" id="color" required>
+              <option *ngFor="let color of colors" [value]="color.id">{{color.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row col-md-12">
+          <label for="brand" class="col-md-2 col-form-label">{{'master.Device.new.brand' | translate}}
+            *</label>
+          <div class="col-md-9">
+            <select class="form-control" id="brand" required>
+              <option *ngFor="let brand of brands" [value]="brand.id">{{brand.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row col-md-12">
+          <label for="condition" class="col-md-2 col-form-label">{{'master.Device.new.condition' | translate}}
+            *</label>
+          <div class="col-md-9">
+            <select class="form-control" id="condition" required>
+              <option *ngFor="let cond of conds" [value]="cond.id">{{cond.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row col-md-12">
+          <label for="loan" class="col-md-2 col-form-label">{{'master.Device.new.loan' | translate}}
+            *</label>
+          <div class="col-md-9">
+            <select class="form-control" id="loan" required>
+              <option *ngFor="let loan of loans" [value]="loan.id">{{loan.name}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row col-md-12">
+          <label for="unit" class="col-md-2 col-form-label">{{'master.Device.new.unit' | translate}}
+            *</label>
+          <div class="col-md-9">
+            <select class="form-control" id="unit" required>
+              <option *ngFor="let unit of units" [value]="unit.id">{{unit.name}}</option>
+            </select>
           </div>
         </div>
       </div>

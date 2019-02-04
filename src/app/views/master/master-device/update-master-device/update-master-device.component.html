@@ -6,7 +6,7 @@
     <form [formGroup]="form" (submit)="send($event)">
       <div class="card-body">
         <div class="form-group row col-md-12">
-          <label for="name" class="col-md-2 col-form-label">{{'master.LoanStatusDevice.updated.name' | translate}}*</label>
+          <label for="name" class="col-md-2 col-form-label">{{'master.Device.updated.name' | translate}}*</label>
           <div class="col-md-9">
             <input formControlName="name" type="text" name="name" id="name" class="col-md-3 form-control"
                    required [ngClass]="{'is-invalid': f.name.errors && submitted}">
@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="form-group row col-md-12">
-          <label for="name" class="col-md-2 col-form-label">{{'master.LoanStatusDevice.updated.code' | translate}}*</label>
+          <label for="name" class="col-md-2 col-form-label">{{'master.Device.updated.code' | translate}}*</label>
           <div class="col-md-9">
             <input formControlName="code" type="text" name="code" id="code" class="col-md-3 form-control"
                    required [ngClass]="{'is-invalid': f.name.errors && submitted}">
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="form-group row col-md-12">
-          <label for="description" class="col-md-2 col-form-label">{{'master.LoanStatusDevice.updated.description' | translate}}*</label>
+          <label for="description" class="col-md-2 col-form-label">{{'master.Device.updated.description' | translate}}*</label>
           <div class="col-md-9">
             <input formControlName="description" type="text" name="description" id="description" class="col-md-3 form-control"
                    required [ngClass]="{'is-invalid': f.description.errors && submitted}">

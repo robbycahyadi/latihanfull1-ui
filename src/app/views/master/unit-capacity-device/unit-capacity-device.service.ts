@@ -3,6 +3,8 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
 import {UnitCapacityDevice} from '../../../entity/unit-capacity-device.model';
+import {Observable} from 'rxjs';
+import {Color} from '../../../entity/color.model';
 
 @Injectable()
 export class UnitCapacityDeviceService {
@@ -23,6 +25,10 @@ export class UnitCapacityDeviceService {
         `${environment.supportDeviceApi}/master/unit-capacity-device/datatables`,
         value, {params: params}
       );
+  }
+
+  public list(): Observable<UnitCapacityDevice[]> {
+    return this._http.get<UnitCapacityDevice[]>(`${environment.supportDeviceApi}/master/unit-capacity-device/lists`);
   }
 
   public save(value: UnitCapacityDevice) {

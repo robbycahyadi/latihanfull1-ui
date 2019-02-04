@@ -3,6 +3,7 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
 import {Color} from '../../../entity/color.model';
+import {Observable} from 'rxjs';
 
 @Injectable()
 export class ColorService {
@@ -23,6 +24,10 @@ export class ColorService {
         `${environment.supportDeviceApi}/master/color-device/datatables`,
         value, {params: params}
       );
+  }
+
+  public list(): Observable<Color[]> {
+    return this._http.get<Color[]>(`${environment.supportDeviceApi}/master/color-device/lists`);
   }
 
   public save(value: Color) {

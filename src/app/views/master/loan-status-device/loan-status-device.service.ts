@@ -3,6 +3,7 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
 import {LoanStatusDevice} from '../../../entity/loan-status-device.model';
+import {Observable} from 'rxjs';
 
 @Injectable()
 export class LoanStatusDeviceService {
@@ -23,6 +24,10 @@ export class LoanStatusDeviceService {
         `${environment.supportDeviceApi}/master/loan-status-device/datatables`,
         value, {params: params}
       );
+  }
+
+  public list(): Observable<LoanStatusDevice[]> {
+    return this._http.get<LoanStatusDevice[]>(`${environment.supportDeviceApi}/master/loan-status-device/lists`);
   }
 
   public save(value: LoanStatusDevice) {

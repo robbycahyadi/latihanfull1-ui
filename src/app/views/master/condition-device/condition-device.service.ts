@@ -3,6 +3,8 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
 import {ConditionDevice} from '../../../entity/condition-device.model';
+import {Observable} from 'rxjs';
+import {Color} from '../../../entity/color.model';
 
 @Injectable()
 export class ConditionDeviceService {
@@ -23,6 +25,10 @@ export class ConditionDeviceService {
         `${environment.supportDeviceApi}/master/condition-device/datatables`,
         value, {params: params}
       );
+  }
+
+  public list(): Observable<ConditionDevice[]> {
+    return this._http.get<ConditionDevice[]>(`${environment.supportDeviceApi}/master/condition-device/lists`);
   }
 
   public save(value: ConditionDevice) {

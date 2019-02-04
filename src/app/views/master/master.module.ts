@@ -36,6 +36,8 @@ import {UpdateLoanStatusDeviceComponent} from './loan-status-device/update-loan-
 import {LoanStatusDeviceService} from './loan-status-device/loan-status-device.service';
 import {MasterDeviceService} from './master-device/master-device.service';
 import {ListMasterDeviceComponent} from './master-device/list-master-device/list-master-device.component';
+import {NewMasterDeviceComponent} from './master-device/new-master-device/new-master-device.component';
+import {UpdateMasterDeviceComponent} from './master-device/update-master-device/update-master-device.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -79,7 +81,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ListLoanStatusDeviceComponent,
     NewLoanStatusDeviceComponent,
     UpdateLoanStatusDeviceComponent,
-    ListMasterDeviceComponent
+    ListMasterDeviceComponent,
+    NewMasterDeviceComponent,
+    UpdateMasterDeviceComponent
   ], providers: [
     {
       provide: HTTP_INTERCEPTORS,

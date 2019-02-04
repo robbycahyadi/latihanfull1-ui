@@ -3,6 +3,7 @@ import {HttpClient, HttpParams} from '@angular/common/http';
 import {environment} from '../../../../environments/environment';
 import {DatatablesModelResponse} from '../../../_model/datatables';
 import {BrandDevice} from '../../../entity/brand-device.model';
+import {Observable} from 'rxjs';
 
 @Injectable()
 export class BrandDeviceService {
@@ -23,6 +24,10 @@ export class BrandDeviceService {
         `${environment.supportDeviceApi}/master/brand-device/datatables`,
         value, {params: params}
       );
+  }
+
+  public list(): Observable<BrandDevice[]> {
+    return this._http.get<BrandDevice[]>(`${environment.supportDeviceApi}/master/brand-device/lists`);
   }
 
   public save(value: BrandDevice) {
